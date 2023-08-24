@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 // import Socialmedia from "../Socialmedia";
 import Logo from "../../assets/logo.png";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 const Footer = () => {
   return (
        <Container className="pt-5">
