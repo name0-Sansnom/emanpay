@@ -1,0 +1,120 @@
+/* .register {
+    background-color:#fff;
+    max-width: 100% !important;
+}
+
+.register img {
+    width: 80px;
+    height: auto;
+}
+
+.top_icons {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.Header_root {
+    align-items: center;
+    background-color: #134341;
+    box-sizing: border-box;
+    display: flex;
+    height: 72px;
+    left: 0;
+    padding: 0 112px;
+    position: fixed;
+    top: 0;
+    transition: all .3s;
+    width: 100vw;
+    z-index: 100;
+}
+
+.Header_root .Header_content {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1216px;
+    width: 100%;
+}
+
+.Header_link {
+    height: 36px;
+    position: relative;
+    top: 4px;
+}
+
+.Header_logo {
+    height: auto;
+    width: 80px;
+}
+
+.header_text {
+    font-size: 20px !important;
+    font-weight: 600;
+    color: black !important;
+    margin-top: 1rem !important;
+    /* line-height: calc(20px + 4px) !important; */
+}
+
+.Header_buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.Header_basicButton {
+    align-items: center;
+    background: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    gap: 12px;
+    height: 48px;
+    outline: none;
+    padding: 12px 32px;
+}
+
+button, button:hover {
+    transform: scale(1);
+}
+
+button {
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+button, img {
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Header_iconButton {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    box-sizing: border-box;
+    /* color: var(-white); */
+    cursor: pointer;
+    height: 48px;
+    outline: none;
+    padding: 12px;
+}
+
+.Header_iconButton img {
+    height: 24px;
+    width: 24px;
+}
+
+

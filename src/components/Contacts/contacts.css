@@ -1,0 +1,86 @@
+/* #contact {
+  text-align: center;
+  color: #2d453a;
+} */
+
+.contact_top {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  background-image: linear-gradient(360deg, #0c231f 0%, #134341 100%);
+}
+
+.container.contact__container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 15%;
+}
+
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-card {
+  background-color: #2d453a;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: all 400ms ease;
+  color: white;
+}
+
+.contact-card:hover {
+  /* text-align: center; */
+  color: #2d453a !important;
+  background: linear-gradient(370deg, transparent, #517353);
+  border-color: #517353;
+}
+
+.contact-card-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact__options a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+/* ========== Form Section Style ============== */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  color: white;
+  background: transparent;
+  border: 2px solid #517353;
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+  resize: none;
+}
+
+/* ========== Media Queries for Medium Devices ======== */
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* ========== Media Queries for Small Devices ======== */
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: 90%;
+  }
+}

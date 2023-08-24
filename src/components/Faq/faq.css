@@ -1,0 +1,12 @@
+.accordion-button {
+    font-size: 1.2rem !important;
+    color: #fff !important;
+    background-color: #3a6a56 !important;
+}
+
+.accordion-button::after {
+    color: #fff !important;
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    
+}

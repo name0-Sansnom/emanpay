@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* .hero {
+  background-image: url('./assets//2833951.jpg');
+    background-position:inherit;
+    background-repeat: no-repeat;
+} */
+
+
+.account_comp {
+  transform: translateY(-8rem);
+  z-index: 9;
 }

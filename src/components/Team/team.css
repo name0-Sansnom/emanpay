@@ -1,0 +1,24 @@
+.team_container{
+    background: #134341;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.team_text {
+    text-align: center;
+    color: white;
+}
+
+.clearfix {
+    background-image: url('../../assets/Vector.webp');
+    background-repeat: repeat;
+    background-position:top center;
+    padding-bottom: 1rem;
+  }
+
+  .team_container img{
+    width: 142px;
+    height: 142px;
+  }
+
+/* 0556683166 */

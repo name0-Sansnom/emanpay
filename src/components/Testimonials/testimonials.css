@@ -1,0 +1,73 @@
+/* .review {
+  padding-top: 3rem;
+  background-image: linear-gradient(
+    32deg,
+    transparent,
+    #517353,
+    transparent
+    ),
+    url(../../assets/vec3.jpg);
+} */
+
+.review img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.review > h2,
+.review > h5 {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.container.testimonial__container {
+  width: 40%;
+  padding-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.client_name {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.client_avatar {
+  width: 8rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 0.3rem solid #6b37c4;
+  margin: 0 auto;
+}
+
+.testimonial {
+  background: var(--primary-color);
+  border-radius: 2rem;
+  text-align: center;
+  /* padding: 4rem; */
+  user-select: none;
+}
+
+.client_review {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 300;
+  width: 80%;
+  display: block;
+  margin: 0.8rem auto 0;
+}
+
+/* Dots */
+.review .slick-dots {
+  bottom: 5%;
+}
+
+.review .slick-dots li.slick-active button:before {
+  color: var(--background-color);
+  font-size: 12px;
+}

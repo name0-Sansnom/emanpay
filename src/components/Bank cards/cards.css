@@ -1,0 +1,49 @@
+.cards_bg {
+    background-image: linear-gradient(180deg, #0c231f 0%, #134341 100%);
+    width: 100% !important;
+    border-radius: 4rem 4rem 0 0 !important;
+    padding: 120px 0;
+    text-align: center;
+    /* font-family: 'Mochiy Pop One', sans-serif; */
+}
+
+.text, p {
+  color: #FFFFFF8F !important;
+}
+
+.card-title {
+  color: #fff !important;
+}
+
+.cards_bg h6 {
+  color: #E1FFA0;
+}
+.account-card {
+    transition: box-shadow 0.3s ease;
+    background-color: none;
+  }
+  
+  .account-card:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card {
+    background: none !important;
+    border-color: none !important;
+  }
+
+
+  .card_icon{
+    color: #E1FFA0;
+    background-color: #517353;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #284D3D;
+    border-radius:50%;
+    overflow: hidden;
+    padding: 16px;
+    font-size: 28px;
+    width: 95px;
+    text-align: center;
+    /* transform: rotate(0deg); */
+  }

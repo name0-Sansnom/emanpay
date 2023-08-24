@@ -1,0 +1,82 @@
+.intro{
+  margin-top: -8rem important;
+}
+
+.intro p {
+  color: #0000008f !important;
+  font-weight: 500;
+  /* color: whitesmoke; */
+}
+
+.card {
+  background: none !important;
+  border-color: none !important;
+ border: none !important;
+}
+
+.intro h1 {
+  color: #284d3d;
+  text-align: center !important;
+}
+
+.intro h4 {
+  color: rgba(245, 88, 126, 0.48);
+  font-size: 58px;
+  font-weight: 600;
+  text-decoration: line-through;
+  line-height: 56px;
+  text-align: center;
+  user-select: none;
+}
+
+.intro span {
+  color: tomato;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.intro_title {
+  margin-top: 2rem !important;
+  text-align: center;
+  color: #2d453a !important;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #517353
+
+  );
+  border-radius: 0.8rem;
+}
+
+.details {
+  margin-bottom: 2rem;
+}
+
+.details_img {
+  height: 36rem !important;
+}
+
+.bank_details {
+  text-align: left !important;
+  /* margin-top: 4rem; */
+  font-size: 1rem;
+  /* font-family: 'Mochiy Pop One', sans-serif; */
+}
+
+.bank_details span {
+  color: green !important;
+  padding-right: 0.4rem;
+  font-size: 1.8rem;
+}
+
+/* .content_left {
+  margin-right: 10rem !important;
+}
+
+.content_right {
+  margin-left: 8rem !important;
+}
+
+.img_right {
+  margin-right: 4rem !important;
+} */
