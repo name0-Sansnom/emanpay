@@ -2,9 +2,9 @@ import React from "react";
 import "./header.css";
 import { CImage } from "@coreui/bootstrap-react";
 import TopBar from "../topnav/TopBar";
-import { Stack, Button, Form, InputGroup } from "react-bootstrap";
+import { Stack } from "react-bootstrap";
 import HeroImage from "../../assets/HeroImage.webp";
-import { BsTwitter } from "react-icons/bs";
+// import { BsTwitter } from "react-icons/bs";
 
 
 function Header() {
