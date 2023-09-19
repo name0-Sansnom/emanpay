@@ -25,7 +25,7 @@ function Header() {
             reward from managing and spending money.
           </p>
         </div>
-        <div>
+        {/* <div>
           <Stack direction="horizontal" gap={3}>
             <InputGroup className="mb-3">
               <Form.Control
@@ -38,7 +38,7 @@ function Header() {
               </Button>
             </InputGroup>
           </Stack>
-        </div>
+        </div> */}
         {/* <div className="hero_image">
           <img src={HeroImage} alt="" />
         </div> */}

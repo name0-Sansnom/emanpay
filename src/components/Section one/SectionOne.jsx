@@ -60,7 +60,7 @@ const SectionOne = () => {
       </Row>
 
       <Stack gap={2} className="col-md-5 mx-auto">
-        <h2>
+        <h2 style={{textAlign: 'center'}}>
           Whatever you spend, He will replace it. He is the best of all providers.
         </h2>
         <p>Quran 34:39</p>
@@ -85,6 +85,7 @@ const SectionOne = () => {
           <Col>
             <Card>
               <Card.Body>
+                 <Card.Title className="services_card_title">Virtual Card</Card.Title>
                 <CImage
                   fluid
                   align="center"
@@ -93,7 +94,6 @@ const SectionOne = () => {
                   alt=""
                   className="details_img"
                 />
-                 <Card.Title>Virtual Card</Card.Title>
                 <h1> Shop Online</h1>
                 <Card.Text>
                   <p className="bank_details">
@@ -134,6 +134,7 @@ const SectionOne = () => {
           <Col>
             <Card>
               <Card.Body>
+              <Card.Title className="services_card_title">PHYSICAL CARD</Card.Title>
               <CImage
                   fluid
                   align="center"
@@ -142,7 +143,6 @@ const SectionOne = () => {
                   alt=""
                   className="details_img"
                 />
-              <Card.Title>PHYSICAL CARD</Card.Title>
                 <h1>Pay on the go</h1>
                 <Card.Text>
                   <p className="bank_details">
@@ -180,6 +180,7 @@ const SectionOne = () => {
           <Col>
             <Card>
               <Card.Body>
+              <Card.Title className="services_card_title">MONEY TRANSFER</Card.Title>
                 <CImage
                   fluid
                   align="center"
@@ -188,7 +189,6 @@ const SectionOne = () => {
                   alt=""
                   className="details_img"
                 />
-                 <Card.Title>MONEY TRANSFER</Card.Title>
                 <h1> Send money without worries</h1>
                 <Card.Text>
                   <p className="bank_details">
@@ -221,6 +221,7 @@ const SectionOne = () => {
           <Col>
             <Card>
               <Card.Body>
+              <Card.Title className="services_card_title">SECURITY</Card.Title>
               <CImage
                   fluid
                   align="center"
@@ -229,7 +230,6 @@ const SectionOne = () => {
                   alt=""
                   className="details_img"
                 />
-              <Card.Title>SECURITY</Card.Title>
                 <h1>Support you can trust</h1>
                 <Card.Text>
                   <p className="bank_details">

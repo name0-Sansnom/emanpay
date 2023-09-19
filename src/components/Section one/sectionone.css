@@ -53,14 +53,21 @@
 }
 
 .details_img {
-  height: 36rem !important;
+  height: 30rem !important;
 }
 
 .bank_details {
   text-align: left !important;
-  /* margin-top: 4rem; */
+  margin-left: 7rem;
   font-size: 1rem;
   /* font-family: 'Mochiy Pop One', sans-serif; */
+}
+
+.services_card_title {
+  color: #2d453a !important;
+  text-align: center ;
+  font-size: 1.2rem !important;
+  font-weight: 700;
 }
 
 .bank_details span {
@@ -68,6 +75,7 @@
   padding-right: 0.4rem;
   font-size: 1.8rem;
 }
+
 
 /* .content_left {
   margin-right: 10rem !important;
@@ -80,3 +88,19 @@
 .img_right {
   margin-right: 4rem !important;
 } */
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+  .intro {
+    margin-top: -21rem !important;
+  }
+  
+  .bank_details {
+    margin-left: 0rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .details_img {
+    height: 27rem;
+  }
+}

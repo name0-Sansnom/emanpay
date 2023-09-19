@@ -1,4 +1,5 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import "./testimonials.css";
 import Avatar1 from "../../assets/Avatar1.jpg";
 import Avatar2 from "../../assets/Avatar2.jpg";
@@ -35,14 +36,33 @@ const Clients = [
     say: "Al-Hikma Islamic Montessori School has been a wonderful experience for my family. The school's commitment to inclusivity and diversity has created a welcoming environment for my child, and the Montessori approach has helped them develop a love of learning that will last a lifetime.",
   },
 ];
-
 const Testimonials = () => {
+  const [slidesToShow, setSlidesToShow] = useState(2);
+
+  useEffect(() => {
+    // Check the screen width and adjust slidesToShow accordingly
+    const handleResize = () => {
+      if (window.innerWidth <= 480) {
+        setSlidesToShow(1); // Show one slide at a time for screens <= 480px wide
+      } else {
+        setSlidesToShow(2); // Show two slides at a time for larger screens
+      }
+    };
+
+    handleResize(); // Call it initially
+    window.addEventListener("resize", handleResize); // Listen for window resize events
+
+    return () => {
+      window.removeEventListener("resize", handleResize); // Clean up the event listener
+    };
+  }, []);
+
   const settings = {
     dots: true,
     infinite: true,
     autoplay: true,
     speed: 400,
-    slidesToShow: 1,
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
   };
 

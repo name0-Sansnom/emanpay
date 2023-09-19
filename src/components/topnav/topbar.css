@@ -71,16 +71,17 @@
 }
 
 .Header_basicButton {
-    align-items: center;
-    background: white;
-    border: none;
-    border-radius: 16px;
-    cursor: pointer;
-    display: flex;
-    gap: 12px;
-    height: 48px;
-    outline: none;
-    padding: 12px 32px;
+    align-items: center !important;
+    background: white !important;
+    border: none !important;
+    border-radius: 16px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    gap: 12px !important;
+    height: 48px !important;
+    outline: none !important;
+    padding: 12px 32px !important;
+    letter-spacing: none !important;
 }
 
 button, button:hover {
@@ -115,6 +116,30 @@ a {
 .Header_iconButton img {
     height: 24px;
     width: 24px;
+}
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+    .Header_root {
+        padding: 0 12px;
+    }
+
+    .Header_content{
+        gap: 26px;
+    }
+
+    .Header_logo{
+        width: 65px;
+    }
+
+    .Header_basicButton{
+        padding: 6 6px;
+        height: 42px;
+    }
+
+    .Header_iconButton{
+        height: 40px;
+        padding: 8px;
+    }
 }
 
 

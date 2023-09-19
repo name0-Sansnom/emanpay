@@ -10,7 +10,7 @@ const Team = () => {
   return (
     <Container className="mt-8 team_container clearfix">
 
-    <Row className="justify-content-center" style={{marginTop: "2em"}}>
+    <Row className="justify-content-center bank_cards" style={{marginTop: "2em"}}>
     <h4 className='team_text'>Meet our Team</h4>
       <Col>
         <Card className="mt-5 account-card align-items-center text-center">

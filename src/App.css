@@ -48,3 +48,10 @@
   transform: translateY(-8rem);
   z-index: 9;
 }
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+  .account_comp{
+  transform: translateY(-23rem);
+
+  }
+}

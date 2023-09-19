@@ -50,3 +50,12 @@
   background-position:top center;
   padding-bottom: 1rem;
 }
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+
+  .hero p {
+    letter-spacing: 2px;
+    font-size: 15px !important;
+    margin: 0 !important;
+  }
+}

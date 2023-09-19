@@ -35,8 +35,8 @@ const Contact = () => {
           It’s for everyone who shares common values of interest-free lifestyle
         </p>
         </div>
-        <Row className="justify-content-center">
-          <Col style={{ width: '25%'}}>
+        <Row className="justify-content-center bank_cards">
+          <Col>
             <Card className="mb-4 account-card align-items-center text-center">
             <div className="card_icon">
             <BsCreditCard/>
@@ -50,7 +50,7 @@ const Contact = () => {
             </Card>
           </Col>
 
-          <Col style={{ width: '25%'}}>
+          <Col>
             <Card className="mb-4 account-card align-items-center text-center">
             <div className="card_icon">
             <FaRegHandshake />
@@ -64,7 +64,7 @@ const Contact = () => {
             </Card>
           </Col>
 
-          <Col style={{ width: '25%'}}>
+          <Col>
             <Card className="mb-4 account-card align-items-center text-center">
             <div className="card_icon">
             <PiHandHeartFill />
@@ -81,22 +81,22 @@ const Contact = () => {
       </div>
 
       <section id="contact" className="mt-5">
-        <h5>Get in touch</h5>
-        <h2>Contact me</h2>
+        <h4 style={{textAlign: "center"}}>Get in touch</h4>
+        <h2 style={{textAlign: "center"}}>Contact me</h2>
         <div className="container contact__container">
           <div className="contact__options">
             <article className="contact-card">
               <HiOutlineMailOpen className="contact-card-icon" />
               <h4>Email</h4>
               <h5>Abc123@gmail.com</h5>
-              <a
+              {/* <a
                 href="mailto:upchh@example.com"
                 target={"_blank"}
                 className="btn btn-primary"
                 rel="noreferrer"
               >
                 Send a Message
-              </a>
+              </a> */}
             </article>
             <article className="contact-card">
               <BsWhatsapp className="contact-card-icon" />
@@ -115,14 +115,14 @@ const Contact = () => {
               <BsInstagram className="contact-card-icon" />
               <h4>Instagram</h4>
               <h5>Talha_ss</h5>
-              <a
+              {/* <a
                 href="mailto:upchh@example.com"
                 target={"_blank"}
                 rel="noreferrer"
                 className="btn btn-primary"
               >
                 Follow me
-              </a>
+              </a> */}
             </article>
           </div>
 
@@ -145,7 +145,7 @@ const Contact = () => {
               placeholder="Your Message"
               required
             ></textarea>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-primary form_button">
               Send Message
             </button>
           </form>

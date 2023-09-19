@@ -23,8 +23,8 @@ const AccountCards = () => {
         </div>
       </Stack>
       <Container className="mt-8">
-        <Row className="justify-content-center">
-          <Col style={{ width: '25%'}}>
+        <Row className="justify-content-center bank_cards">
+          <Col>
             <Card className="mb-4 account-card align-items-center text-center">
             <div className="card_icon">
             <BsCashCoin />
@@ -38,7 +38,7 @@ const AccountCards = () => {
             </Card>
           </Col>
 
-          <Col style={{ width: '25%'}}>
+          <Col>
             <Card className="mb-4 account-card align-items-center text-center">
             <div className="card_icon">
             <TbBuildingBank />
@@ -52,7 +52,7 @@ const AccountCards = () => {
             </Card>
           </Col>
 
-          <Col style={{ width: '25%'}}>
+          <Col>
             <Card className="mb-4 account-card align-items-center text-center">
             <div className="card_icon">
             <FaRegHandshake />
@@ -66,7 +66,7 @@ const AccountCards = () => {
             </Card>
           </Col>
 
-          <Col style={{ width: '25%'}}>
+          <Col>
             <Card className="mb-4 account-card align-items-center text-center">
             <div className="card_icon">
             <BsCreditCard  />
